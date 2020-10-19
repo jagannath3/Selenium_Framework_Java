@@ -21,9 +21,8 @@ public class ClickUtility {
 		lp.getLoginButton().click();
 	}
 
-	public void clickLogout()
-	{
-		hp=new HomePage(driver);
+	public void clickLogout() {
+		hp = new HomePage(driver);
 		hp.getLogOut().click();
 	}
 }

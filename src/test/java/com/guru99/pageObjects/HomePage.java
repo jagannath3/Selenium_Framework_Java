@@ -7,16 +7,14 @@ import org.openqa.selenium.WebElement;
 public class HomePage {
 
 	public WebDriver driver;
-	
-	public HomePage(WebDriver driver)
-	{
-		this.driver=driver;
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
 	}
-	
-	private By logOut=By.linkText("Log out");
-	
-	public WebElement getLogOut()
-	{
+
+	private By logOut = By.linkText("Log out");
+
+	public WebElement getLogOut() {
 		return driver.findElement(logOut);
 	}
 }

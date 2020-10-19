@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.guru99.Base.BaseClass;
 import com.guru99.pageObjects.LoginPage;
 import com.guru99.resources.DataProviders;

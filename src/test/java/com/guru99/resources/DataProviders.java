@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviders {
 
-	@DataProvider(name="validLoginData")
+	@DataProvider(name = "validLoginData")
 	public Object[][] getValidLogindata() {
 		Object[][] data = new Object[1][2];
 		data[0][0] = "mngr291004";
@@ -12,7 +12,7 @@ public class DataProviders {
 		return data;
 	}
 
-	@DataProvider(name="invalidLoginData")
+	@DataProvider(name = "invalidLoginData")
 	public Object[][] getInValidLogindata() {
 		Object[][] data = new Object[1][2];
 		data[0][0] = "hello";
