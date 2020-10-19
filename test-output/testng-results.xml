@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26264" started-at="2020-10-19T19:56:02 IST" finished-at="2020-10-19T19:56:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26264" started-at="2020-10-19T19:56:02 IST" finished-at="2020-10-19T19:56:28 IST">
+      <class name="com.guru99.testCases.tc_01_LoginTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@131276c2]" name="initDriver" is-config="true" duration-ms="13753" started-at="2020-10-19T19:56:02 IST" finished-at="2020-10-19T19:56:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@131276c2]" name="invalidLoginTest" duration-ms="1404" started-at="2020-10-19T19:56:16 IST" data-provider="invalidLoginData" finished-at="2020-10-19T19:56:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@131276c2]" name="validLoginTest" duration-ms="10750" started-at="2020-10-19T19:56:17 IST" data-provider="validLoginData" finished-at="2020-10-19T19:56:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr291004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ehybegY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@131276c2]" name="tearDown" is-config="true" duration-ms="188" started-at="2020-10-19T19:56:28 IST" finished-at="2020-10-19T19:56:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.testCases.tc_01_LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
