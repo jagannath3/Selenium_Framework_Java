@@ -7,7 +7,7 @@
         <methods>
           <include name="initDriver"/>
           <include name="tearDown"/>
-          <include name="validLoginTest" invocation-numbers="0"/>
+          <include name="invalidLoginTest" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.guru99.testCases.tc_01_LoginTest -->
     </classes>

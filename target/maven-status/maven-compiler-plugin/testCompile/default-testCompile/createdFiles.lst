@@ -1,0 +1,7 @@
+com\guru99\Base\BaseClass.class
+com\guru99\pageObjects\LoginPage.class
+com\guru99\resources\DataProviders.class
+com\guru99\utility\ClickUtility.class
+com\guru99\testCases\tc_01_LoginTest.class
+Guru99_Bank\AppTest.class
+com\guru99\pageObjects\HomePage.class
