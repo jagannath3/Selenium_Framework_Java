@@ -30,7 +30,6 @@ public class tc_01_LoginTest extends BaseClass {
 	public WebDriver driver;
 	public LoginPage lp;
 	public ClickUtility cu;
-	public DataProviders dp;
 
 	@BeforeTest
 	public void initDriver() {
