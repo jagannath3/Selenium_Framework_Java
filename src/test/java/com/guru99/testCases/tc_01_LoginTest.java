@@ -12,6 +12,19 @@ import com.guru99.pageObjects.LoginPage;
 import com.guru99.resources.DataProviders;
 import com.guru99.utility.ClickUtility;
 
+/**
+ * 
+ * @author Jagannath 
+ * 		Test Script Day 1 
+ * 		************** 
+ * 		Test Steps 
+ * 		1) Go to http://www.demo.guru99.com/V4/ 
+ * 		2) Enter valid UserId and Password. 
+ * 		3) Verify Login and Logout 
+ * 		4) Enter invalid UserID and Password. 
+ * 		5) Verify Login
+ */
+
 public class tc_01_LoginTest extends BaseClass {
 
 	public WebDriver driver;
@@ -32,10 +45,14 @@ public class tc_01_LoginTest extends BaseClass {
 		lp.getLoginUserName().sendKeys(username);
 		lp.getLoginPassword().sendKeys(password);
 		cu.clickLogin();
-		Assert.assertTrue(driver.getCurrentUrl().contains("Managerhomepage"), "Login Successfull");
+		String currentUrl = driver.getCurrentUrl();
+		Assert.assertTrue(currentUrl.contains("Managerhomepage"), "Login Successfull");
+		System.out.println("Login Successfull! You're redirected to " + currentUrl);
 		cu.clickLogout();
-		Assert.assertTrue(ExpectedConditions.alertIsPresent() != null, driver.switchTo().alert().getText());
+		String logOutMsg = driver.switchTo().alert().getText();
+		Assert.assertTrue(ExpectedConditions.alertIsPresent() != null, logOutMsg);
 		driver.switchTo().alert().accept();
+		System.out.println(logOutMsg);
 	}
 
 	@Test(dataProvider = "invalidLoginData", dataProviderClass = DataProviders.class)
@@ -45,7 +62,9 @@ public class tc_01_LoginTest extends BaseClass {
 		lp.getLoginUserName().sendKeys(username);
 		lp.getLoginPassword().sendKeys(password);
 		cu.clickLogin();
-		Assert.assertTrue(ExpectedConditions.alertIsPresent() != null, driver.switchTo().alert().getText());
+		String loginErrorMsg = driver.switchTo().alert().getText();
+		Assert.assertTrue(ExpectedConditions.alertIsPresent() != null, loginErrorMsg);
+		System.out.println(loginErrorMsg);
 		driver.switchTo().alert().accept();
 	}
 

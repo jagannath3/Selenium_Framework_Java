@@ -5,14 +5,14 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BaseClass {
+import com.guru99.resources.DataProviders;
+
+public class BaseClass extends DataProviders {
 
 	public WebDriver initialization() {
-		String driverPath = System.getProperty("user.dir") + "\\browserDriver\\chromedriver.exe";
-		System.out.println(driverPath);
-		System.setProperty("webdriver.chrome.driver", driverPath);
+		System.setProperty("webdriver.chrome.driver", Chrome_Path);
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://www.demo.guru99.com/V4/");
+		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}

@@ -5,5 +5,5 @@
 		<classes>
 			<class name="com.guru99.testCases.tc_01_LoginTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> 
+</suite>
