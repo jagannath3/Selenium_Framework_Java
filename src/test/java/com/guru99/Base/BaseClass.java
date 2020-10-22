@@ -23,12 +23,13 @@ public class BaseClass extends DataProviders {
 		cap.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 		ChromeOptions option=new ChromeOptions();
 		option.merge(cap);
-		//option.setCapability("UNEXPECTED_ALERT_BEHAVIOUR", UnexpectedAlertBehaviour.IGNORE);
 		WebDriver driver = new ChromeDriver(option);
 		log.info("***********************Starting Tests***********************");
 		log.info("Driver initialized");
 		driver.get(URL);
 		log.info("Redirected to -> "+URL);
+		log.debug("Deleting all the Cookies before starting the actual test cases");
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;

@@ -10,16 +10,14 @@ import com.guru99.pageObjects.LoginPage;
 import com.guru99.resources.DataProviders;
 
 /**
+ * SS1: Enter valid user name & password 
+ *      Expected: Login successful, home page shown 
+ * SS2: Enter invalid user name & invalid password 
+ * SS3: Enter valid user name & invalid password 
+ * SS4: Enter invalid user name & valid password 
+ *      Expected: A pop-up “User or Password is not valid” is shown
  * 
- * @author Jagannath 
- * 		Test Script Day 1 
- * 		************** 
- * 		Test Steps 
- * 		1) Go to http://www.demo.guru99.com/V4/ 
- * 		2) Enter valid UserId and Password. 
- * 		3) Verify Login
- * 		4) Enter invalid UserID and Password. 
- * 		5) Verify Login
+ * @throws Exception
  */
 
 public class tc_01_LoginTest extends BaseClass {
@@ -39,7 +37,7 @@ public class tc_01_LoginTest extends BaseClass {
 		lb.enterUserName(username);
 		lb.enterPassword(password);
 		lb.clickOnLogin();
-		lb.verifyValidLogin();
+		lb.verifyLogin();
 	}
 
 	@Test(dataProvider = "invalidLoginData", dataProviderClass = DataProviders.class)
@@ -48,7 +46,7 @@ public class tc_01_LoginTest extends BaseClass {
 		lb.enterUserName(username);
 		lb.enterPassword(password);
 		lb.clickOnLogin();
-		lb.verifyInValidLogin();
+		lb.verifyLogin();
 	}
 
 	@AfterSuite

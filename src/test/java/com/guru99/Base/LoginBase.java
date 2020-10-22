@@ -1,14 +1,15 @@
 package com.guru99.Base;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 import com.guru99.pageObjects.LoginPage;
 
 public class LoginBase extends BaseClass {
 
 	public WebDriver driver;
+	String actualUrl;
 
 	public LoginBase(WebDriver driver) {
 		this.driver = driver;
@@ -32,18 +33,31 @@ public class LoginBase extends BaseClass {
 		log.debug("Clicked on Login Button");
 	}
 
-	public void verifyValidLogin() {
-		String expectedURL = driver.getCurrentUrl();
+	public void verifyLogin() {
 		log.debug("Verifying Login");
-		Assert.assertTrue(expectedURL.contains("Managerhomepage"), "Login Not Success");
-		log.debug("Login Success! You're redirected to -> " + expectedURL);
-	}
+		try {
+			Alert alert = driver.switchTo().alert();
+			String error = alert.getText();
+			log.error("Alert box opened with error message: " + error);
+			alert.accept();
+			log.debug("Clicked OK on Alert box");
+			if (error.contains("not valid")) {
+				actualUrl = driver.getCurrentUrl();
+				log.info("You're redirected to: " + actualUrl + " Please Login with Valid credentials");
+			} else {
+				actualUrl = driver.getCurrentUrl();
+				log.info("Login Success! You're redirected to: " + actualUrl);
+			}
+		} catch (NoAlertPresentException Ex) {
+			actualUrl = driver.getCurrentUrl();
+			if (actualUrl.contains("Managerhomepage")) {
+				log.info("Login Success! You're redirected to: " + actualUrl);
+			} else {
+				log.error("Login Not Success");
+				actualUrl = driver.getCurrentUrl();
+				log.info("You're redircted to: " + actualUrl + " Please Login with Valid credentials");
+			}
 
-	public void verifyInValidLogin() {
-		log.debug("Verifying Login");
-		Alert alert = driver.switchTo().alert();
-		log.error("Pop up opened with error message: " + alert.getText());
-		alert.accept();
-		log.debug("Clicked OK on Pop up to close it");
+		}
 	}
 }
