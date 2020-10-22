@@ -104,17 +104,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.guru99.testCases.tc_01_LoginTest" hash-for-method="invalidLoginTest(mngr291004, 1234)">invalidLoginTest(mngr291004, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.guru99.testCases.tc_01_LoginTest" hash-for-method="invalidLoginTest(hello, 1234)">invalidLoginTest(hello, 1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.guru99.testCases.tc_01_LoginTest" hash-for-method="invalidLoginTest(hello, ehybegY)">invalidLoginTest(hello, ehybegY)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.guru99.testCases.tc_01_LoginTest" hash-for-method="invalidLoginTest(mngr291004, 1234)">invalidLoginTest(mngr291004, 1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +142,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="invalidLoginTest(mngr291004, 1234)">
+                  </a> <!-- invalidLoginTest(mngr291004, 1234) -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <span class="parameters">(mngr291004, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="invalidLoginTest(hello, 1234)">
                   </a> <!-- invalidLoginTest(hello, 1234) -->
                   <span class="method-name">invalidLoginTest</span>
@@ -154,14 +162,6 @@
                   </a> <!-- invalidLoginTest(hello, ehybegY) -->
                   <span class="method-name">invalidLoginTest</span>
                   <span class="parameters">(hello, ehybegY)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidLoginTest(mngr291004, 1234)">
-                  </a> <!-- invalidLoginTest(mngr291004, 1234) -->
-                  <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(mngr291004, 1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -184,6 +184,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.guru99.utility.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.guru99.testCases.tc_01_LoginTest&quot;/&gt;
@@ -228,26 +231,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validLoginTest')
+data.setCell(0, 1, 'invalidLoginTest')
 data.setCell(0, 2, 'com.guru99.testCases.tc_01_LoginTest')
-data.setCell(0, 3, 8288);
+data.setCell(0, 3, 8682);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invalidLoginTest')
+data.setCell(1, 1, 'validLoginTest')
 data.setCell(1, 2, 'com.guru99.testCases.tc_01_LoginTest')
-data.setCell(1, 3, 5710);
+data.setCell(1, 3, 8033);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'invalidLoginTest')
 data.setCell(2, 2, 'com.guru99.testCases.tc_01_LoginTest')
-data.setCell(2, 3, 4786);
+data.setCell(2, 3, 3452);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'invalidLoginTest')
 data.setCell(3, 2, 'com.guru99.testCases.tc_01_LoginTest')
-data.setCell(3, 3, 1492);
+data.setCell(3, 3, 1530);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -274,30 +277,30 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.guru99.testCases.tc_01_LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="configuration-suite before">
                 <span class="method-name">initDriver</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(hello, 1234)</span>
-                <span class="method-start">10635 ms</span>
+                <span class="method-start">24896 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(mngr291004, 1234)</span>
-                <span class="method-start">12139 ms</span>
+                <span class="method-start">26439 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(hello, ehybegY)</span>
-                <span class="method-start">16928 ms</span>
+                <span class="method-start">29893 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validLoginTest(mngr291004, ehybegY)</span>
-                <span class="method-start">22648 ms</span>
+                <span class="method-start">38581 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30951 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">46682 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.guru99.utility.ExtentReporterNG"/>
+  </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
       <class name="com.guru99.testCases.tc_01_LoginTest">
         <methods>
           <include name="initDriver"/>
           <include name="tearDown"/>
-          <include name="invalidLoginTest"/>
-          <include name="validLoginTest"/>
+          <include name="invalidLoginTest" invocation-numbers="1 2"/>
+          <include name="validLoginTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.guru99.testCases.tc_01_LoginTest -->
     </classes>

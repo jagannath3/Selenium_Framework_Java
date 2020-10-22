@@ -1,35 +1,101 @@
-19:05:11.875 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
-19:05:11.891 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
-19:05:16.649 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
-19:05:16.783 [main] INFO  com.guru99.Base.BaseClass - ***********************Running invalidLoginTest***********************
-19:05:17.155 [main] DEBUG com.guru99.Base.BaseClass - user name entered
-19:05:17.427 [main] DEBUG com.guru99.Base.BaseClass - password entered
-19:05:18.195 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login
-19:05:18.242 [main] ERROR com.guru99.Base.BaseClass - Popup displayed with error message: User or Password is not valid
-19:05:18.267 [main] INFO  com.guru99.Base.BaseClass - Clicked OK on Popup and it is closed
-19:05:18.268 [main] INFO  com.guru99.Base.BaseClass - ***********************End of invalidLoginTest***********************
-19:05:18.281 [main] INFO  com.guru99.Base.BaseClass - ***********************Running invalidLoginTest***********************
-19:05:21.471 [main] DEBUG com.guru99.Base.BaseClass - user name entered
-19:05:21.725 [main] DEBUG com.guru99.Base.BaseClass - password entered
-19:05:23.022 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login
-19:05:23.037 [main] ERROR com.guru99.Base.BaseClass - Popup displayed with error message: User or Password is not valid
-19:05:23.065 [main] INFO  com.guru99.Base.BaseClass - Clicked OK on Popup and it is closed
-19:05:23.066 [main] INFO  com.guru99.Base.BaseClass - ***********************End of invalidLoginTest***********************
-19:05:23.073 [main] INFO  com.guru99.Base.BaseClass - ***********************Running invalidLoginTest***********************
-19:05:27.290 [main] DEBUG com.guru99.Base.BaseClass - user name entered
-19:05:27.633 [main] DEBUG com.guru99.Base.BaseClass - password entered
-19:05:28.730 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login
-19:05:28.752 [main] ERROR com.guru99.Base.BaseClass - Popup displayed with error message: User or Password is not valid
-19:05:28.777 [main] INFO  com.guru99.Base.BaseClass - Clicked OK on Popup and it is closed
-19:05:28.777 [main] INFO  com.guru99.Base.BaseClass - ***********************End of invalidLoginTest***********************
-19:05:28.792 [main] INFO  com.guru99.Base.BaseClass - ***********************Running validLoginTest***********************
-19:05:31.866 [main] DEBUG com.guru99.Base.BaseClass - user name entered
-19:05:32.130 [main] DEBUG com.guru99.Base.BaseClass - password entered
-19:05:34.487 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login
-19:05:34.506 [main] INFO  com.guru99.Base.BaseClass - Login Successfull! You're redirected to http://www.demo.guru99.com/V4/manager/Managerhomepage.php
-19:05:37.040 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Logout
-19:05:37.053 [main] INFO  com.guru99.Base.BaseClass - Popup displayed with message: You Have Succesfully Logged Out!!
-19:05:37.076 [main] INFO  com.guru99.Base.BaseClass - Clicked OK on Popup and it is closed
-19:05:37.076 [main] INFO  com.guru99.Base.BaseClass - ***********************End of validLoginTest***********************
-19:05:37.239 [main] INFO  com.guru99.Base.BaseClass - Browser closed
-19:05:37.240 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+13:16:18.434 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+13:16:18.679 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+13:16:24.630 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+13:16:25.413 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:16:25.679 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:16:26.602 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:16:26.603 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:16:26.649 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:16:26.662 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:16:29.496 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:16:29.756 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:16:30.498 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:16:30.499 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:16:30.517 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:16:30.562 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:16:33.709 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:16:33.975 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:16:34.609 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:16:34.609 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:16:34.624 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:16:34.646 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:16:37.040 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:16:37.304 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:16:39.828 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:16:39.854 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:16:40.440 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+13:16:40.441 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+13:24:33.503 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+13:24:33.518 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+13:24:37.171 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+13:24:37.698 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:24:38.050 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:24:39.345 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:24:39.346 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:24:39.366 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:24:39.391 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:24:44.293 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:24:44.475 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:24:44.610 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:24:44.610 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:25:40.690 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+13:25:40.714 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+13:25:49.107 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+13:25:49.523 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:25:49.720 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:25:50.322 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:25:50.322 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:25:50.351 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:25:50.387 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:25:58.577 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:25:58.994 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:25:59.165 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:25:59.165 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:26:30.724 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+13:26:30.736 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+13:26:39.376 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+13:26:39.838 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:26:40.068 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:26:42.002 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:26:42.003 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:26:42.064 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:26:42.227 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:26:46.359 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:26:46.628 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:26:46.873 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:26:46.874 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:28:51.195 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+13:28:51.208 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+13:29:06.257 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+13:29:06.577 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:29:06.751 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:29:06.916 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:29:06.916 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:30:52.407 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+13:30:52.422 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+13:31:12.304 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+13:31:12.704 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:31:12.888 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:31:13.868 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:31:13.869 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:31:13.904 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:31:13.940 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:31:16.412 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:31:16.668 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:31:17.364 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:31:17.365 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:31:17.385 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:31:17.404 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:31:21.014 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:31:21.519 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:31:26.007 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:31:26.007 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:31:26.039 [main] ERROR com.guru99.Base.BaseClass - Pop up opened with error message: User or Password is not valid
+13:31:26.088 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Pop up to close it
+13:31:31.294 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+13:31:31.618 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+13:31:34.093 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+13:31:34.117 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+13:31:34.128 [main] DEBUG com.guru99.Base.BaseClass - Login Success! You're redirected to -> http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+13:31:34.403 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+13:31:34.404 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
