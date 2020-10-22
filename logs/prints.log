@@ -315,3 +315,332 @@
 15:06:49.417 [main] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
 15:06:50.019 [main] INFO  com.guru99.Base.BaseClass - Browser closed
 15:06:50.020 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:17:53.296 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:17:53.332 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:17:57.713 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:17:57.714 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:17:58.736 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:17:59.130 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:17:59.935 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:17:59.936 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:17:59.974 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:17:59.994 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:18:02.305 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:18:02.748 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:18:02.993 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:18:03.653 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:18:03.654 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:18:03.671 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:18:03.698 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:18:05.923 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:18:06.165 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:18:06.511 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:18:07.376 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:18:07.376 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:18:07.390 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:18:07.413 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:18:09.752 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:18:10.103 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:18:10.374 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:18:12.960 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:18:12.961 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:18:13.721 [main] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+17:18:14.851 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:18:14.851 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:19:40.596 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:19:40.609 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:19:44.255 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:19:44.256 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:19:45.069 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:19:45.265 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:19:45.878 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:19:45.878 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:19:45.904 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:19:45.931 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:19:48.669 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:19:49.009 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:19:49.265 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:19:50.419 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:19:50.423 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:19:50.439 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:19:50.456 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:19:52.316 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:19:52.702 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:19:52.919 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:19:54.315 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:19:54.316 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:19:54.342 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:19:54.366 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:19:56.516 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:19:56.870 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:19:57.141 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:19:57.828 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:19:57.829 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:19:57.845 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:19:57.865 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:20:01.095 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:20:01.351 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:20:01.352 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:33:27.033 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:33:27.045 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:33:39.081 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:33:39.081 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:33:44.226 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:33:44.227 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:35:45.869 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:35:45.884 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:35:52.027 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:35:52.027 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:35:52.501 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:35:52.501 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:36:22.899 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:36:22.911 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:36:26.284 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:36:26.285 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:36:28.258 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:36:28.258 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:41:58.461 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:41:58.474 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:42:02.178 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:42:02.178 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:42:03.154 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:42:03.154 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:43:38.106 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:43:38.118 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:43:50.898 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:43:50.898 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:43:52.252 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:43:52.252 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:45:06.898 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:45:06.913 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:45:11.118 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:45:11.119 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:45:12.131 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:45:12.132 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:48:08.094 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:48:08.106 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:48:16.317 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:48:16.317 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:49:47.561 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:49:47.575 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:49:51.867 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:49:51.867 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:49:52.448 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:49:52.748 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:49:53.563 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:49:53.564 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:49:53.590 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:49:53.604 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:49:55.745 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:49:56.247 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:49:56.490 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:49:57.113 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:49:57.114 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:49:57.128 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:49:57.145 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:49:59.522 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:49:59.943 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:50:00.173 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:50:00.756 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:50:00.757 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:50:00.769 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:50:00.787 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:50:12.724 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:50:13.089 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:50:13.431 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:50:13.734 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:50:13.735 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:50:15.739 [main] ERROR com.guru99.Base.BaseClass - Login Not Success
+17:50:15.776 [main] INFO  com.guru99.Base.BaseClass - You're redircted to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php Please Login with Valid credentials
+17:50:22.754 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:50:22.755 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:50:27.589 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:50:27.589 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:50:28.514 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:50:28.514 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+17:54:24.124 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:54:24.138 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:54:28.035 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:54:28.035 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:54:28.581 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:54:28.855 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:54:29.944 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:54:29.945 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:54:29.983 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:54:29.999 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:54:31.828 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:54:32.224 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:54:32.475 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:54:33.147 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:54:33.147 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:54:33.162 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:54:33.182 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:54:35.897 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:54:36.189 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:54:36.536 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:54:37.250 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:54:37.251 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:54:37.267 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+17:54:37.301 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+17:54:40.627 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+17:54:40.943 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+17:54:41.216 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+17:54:43.783 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+17:54:43.784 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+17:54:43.941 [main] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+17:54:52.222 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+17:54:52.223 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+17:55:11.217 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+17:55:11.218 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+17:55:25.051 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+17:55:25.051 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:00:18.030 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:00:18.060 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:00:18.115 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:00:18.116 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:00:22.160 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:00:22.161 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:00:22.316 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:00:22.317 [TestNG-tests-2] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:00:22.895 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:00:23.352 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:00:24.441 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:00:24.441 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:00:24.471 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:00:24.500 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:00:27.463 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:00:27.772 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:00:28.017 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:00:29.097 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:00:29.097 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:00:29.156 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:00:29.203 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:00:32.978 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:00:33.582 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:00:33.841 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:00:35.330 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:00:35.330 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:00:35.348 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:00:35.368 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:00:37.543 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:00:37.941 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:00:38.717 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:00:42.039 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:00:42.040 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:00:42.220 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+18:00:44.464 [main] INFO  com.guru99.Base.BaseClass - Browser closed
+18:00:44.465 [main] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:01:55.033 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:01:55.033 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:01:55.041 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:01:55.041 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:02:02.872 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:02:02.873 [TestNG-tests-2] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:02:33.045 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:02:33.046 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:02:36.010 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Browser closed
+18:02:36.010 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:02:38.682 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:02:38.985 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:02:39.807 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:02:39.921 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:02:39.985 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:02:40.030 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:02:42.028 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:02:42.426 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:02:42.685 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:02:43.399 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:02:43.400 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:02:43.416 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:02:43.450 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:02:45.305 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:02:45.631 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:02:45.900 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:02:46.534 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:02:46.534 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:02:46.550 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:02:46.564 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:02:49.680 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:02:50.027 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:02:50.289 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:02:53.089 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:02:53.089 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:02:53.149 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+18:02:53.282 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Browser closed
+18:02:53.282 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:12:11.579 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:12:11.579 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:12:11.590 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:12:11.590 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:12:15.194 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:12:15.195 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:12:15.702 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:12:15.731 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:12:15.732 [TestNG-tests-2] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:12:15.961 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:12:16.344 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Browser closed
+18:12:16.345 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:12:16.684 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:12:16.685 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:12:16.712 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:12:16.730 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:12:19.231 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:12:19.696 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:12:19.904 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:12:21.341 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:12:21.341 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:12:21.358 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:12:21.383 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:12:22.026 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:12:23.112 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:12:23.410 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:12:23.946 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:12:23.946 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:12:23.962 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:12:23.975 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:12:25.422 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:12:25.799 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:12:26.129 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:12:28.088 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:12:28.089 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:12:29.173 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+18:12:29.307 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Browser closed
+18:12:29.307 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:19:08.777 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:19:08.777 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+18:19:08.925 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:19:08.925 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Driver initialized
+18:19:24.948 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:19:24.948 [TestNG-tests-2] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:19:25.691 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+18:19:25.691 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+18:19:57.813 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:19:58.299 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:20:21.883 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:20:21.884 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:20:21.959 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:20:21.999 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:20:24.644 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:20:25.034 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:20:25.288 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:20:26.383 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:20:26.384 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:20:26.403 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:20:26.422 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:20:28.680 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:20:28.951 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:20:29.317 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - Browser closed
+18:20:29.317 [TestNG-tests-2] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************
+18:20:29.780 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:20:30.462 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:20:30.463 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:20:30.482 [TestNG-tests-1] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+18:20:30.499 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+18:20:32.158 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+18:20:32.526 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - User name entered
+18:20:32.793 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Password entered
+18:20:35.955 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+18:20:35.955 [TestNG-tests-1] DEBUG com.guru99.Base.BaseClass - Verifying Login
+18:20:36.113 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Login Success! You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+18:20:37.379 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - Browser closed
+18:20:37.379 [TestNG-tests-1] INFO  com.guru99.Base.BaseClass - ***********************End of Tests***********************

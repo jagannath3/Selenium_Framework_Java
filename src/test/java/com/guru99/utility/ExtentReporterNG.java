@@ -25,7 +25,7 @@ public class ExtentReporterNG implements IReporter {
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		String timeStamp = new SimpleDateFormat("dd-MM-yyyy-HH-mm-ss").format(new Date());
 		htmlReporter = new ExtentHtmlReporter(
 				System.getProperty("user.dir") + "\\Reports\\htmlreport-" + timeStamp + ".html");
 		extent = new ExtentReports();
@@ -81,5 +81,5 @@ public class ExtentReporterNG implements IReporter {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
-	}	
+	}
 }

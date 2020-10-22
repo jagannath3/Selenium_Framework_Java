@@ -1,17 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" ignored="3" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25962" started-at="2020-10-22T15:02:29 IST" finished-at="2020-10-22T15:02:55 IST">
+  <suite name="Suite" duration-ms="23883" started-at="2020-10-22T18:12:05 IST" finished-at="2020-10-22T18:12:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25962" started-at="2020-10-22T15:02:29 IST" finished-at="2020-10-22T15:02:55 IST">
+    <test name="Test1" duration-ms="10920" started-at="2020-10-22T18:12:05 IST" finished-at="2020-10-22T18:12:16 IST">
       <class name="com.guru99.testCases.tc_01_LoginTest">
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@68567e20]" name="initDriver" is-config="true" duration-ms="12401" started-at="2020-10-22T15:02:16 IST" finished-at="2020-10-22T15:02:29 IST">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@87a85e1]" name="initDriver" is-config="true" duration-ms="10349" started-at="2020-10-22T18:12:05 IST" finished-at="2020-10-22T18:12:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@68567e20]" name="invalidLoginTest" duration-ms="3694" started-at="2020-10-22T15:02:29 IST" data-provider="invalidLoginData" finished-at="2020-10-22T15:02:33 IST">
+        <test-method status="FAIL" signature="verifyTitle()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@87a85e1]" name="verifyTitle" duration-ms="34" started-at="2020-10-22T18:12:15 IST" finished-at="2020-10-22T18:12:15 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.guru99.testCases.tc_01_LoginTest.verifyTitle(tc_01_LoginTest.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@87a85e1]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-10-22T18:12:16 IST" finished-at="2020-10-22T18:12:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.testCases.tc_01_LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test" duration-ms="23883" started-at="2020-10-22T18:12:05 IST" finished-at="2020-10-22T18:12:29 IST">
+      <class name="com.guru99.testCases.tc_01_LoginTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@fa36558]" name="initDriver" is-config="true" duration-ms="9867" started-at="2020-10-22T18:12:05 IST" finished-at="2020-10-22T18:12:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@fa36558]" name="invalidLoginTest" duration-ms="3819" started-at="2020-10-22T18:12:15 IST" data-provider="invalidLoginData" finished-at="2020-10-22T18:12:19 IST">
           <params>
             <param index="0">
               <value>
@@ -27,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@68567e20]" name="invalidLoginTest" duration-ms="4557" started-at="2020-10-22T15:02:33 IST" data-provider="invalidLoginData" finished-at="2020-10-22T15:02:37 IST">
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@fa36558]" name="invalidLoginTest" duration-ms="2786" started-at="2020-10-22T18:12:19 IST" data-provider="invalidLoginData" finished-at="2020-10-22T18:12:22 IST">
           <params>
             <param index="0">
               <value>
@@ -43,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@68567e20]" name="invalidLoginTest" duration-ms="14009" started-at="2020-10-22T15:02:37 IST" data-provider="invalidLoginData" finished-at="2020-10-22T15:02:51 IST">
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@fa36558]" name="invalidLoginTest" duration-ms="3392" started-at="2020-10-22T18:12:22 IST" data-provider="invalidLoginData" finished-at="2020-10-22T18:12:25 IST">
           <params>
             <param index="0">
               <value>
@@ -59,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@68567e20]" name="validLoginTest" duration-ms="3547" started-at="2020-10-22T15:02:51 IST" data-provider="validLoginData" finished-at="2020-10-22T15:02:55 IST">
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@fa36558]" name="validLoginTest" duration-ms="3744" started-at="2020-10-22T18:12:25 IST" data-provider="validLoginData" finished-at="2020-10-22T18:12:29 IST">
           <params>
             <param index="0">
               <value>
@@ -75,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@68567e20]" name="tearDown" is-config="true" duration-ms="199" started-at="2020-10-22T15:02:55 IST" finished-at="2020-10-22T15:02:55 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99.testCases.tc_01_LoginTest@fa36558]" name="tearDown" is-config="true" duration-ms="128" started-at="2020-10-22T18:12:29 IST" finished-at="2020-10-22T18:12:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.guru99.testCases.tc_01_LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

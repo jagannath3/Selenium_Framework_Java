@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.791 s - in TestSuite
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 115.973 s <<< FAILURE! - in TestSuite
+com.guru99.testCases.tc_01_LoginTest.verifyTitle  Time elapsed: 50.039 s  <<< FAILURE!
+java.lang.AssertionError: Test Failed expected [true] but found [false]
+	at com.guru99.testCases.tc_01_LoginTest.verifyTitle(tc_01_LoginTest.java:57)
+

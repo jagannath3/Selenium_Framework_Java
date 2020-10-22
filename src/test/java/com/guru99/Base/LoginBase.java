@@ -55,7 +55,7 @@ public class LoginBase extends BaseClass {
 			} else {
 				log.error("Login Not Success");
 				actualUrl = driver.getCurrentUrl();
-				log.info("You're redircted to: " + actualUrl + " Please Login with Valid credentials");
+				log.info("You're redirected to: " + actualUrl + " Please Login with Valid credentials");
 			}
 
 		}

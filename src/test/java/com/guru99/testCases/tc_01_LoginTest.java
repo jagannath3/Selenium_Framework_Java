@@ -1,8 +1,9 @@
 package com.guru99.testCases;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.guru99.Base.BaseClass;
 import com.guru99.Base.LoginBase;
@@ -11,11 +12,11 @@ import com.guru99.resources.DataProviders;
 
 /**
  * SS1: Enter valid user name & password 
- *      Expected: Login successful, home page shown 
+ * 		Expected: Login successful, home page shown 
  * SS2: Enter invalid user name & invalid password 
  * SS3: Enter valid user name & invalid password 
- * SS4: Enter invalid user name & valid password 
- *      Expected: A pop-up “User or Password is not valid” is shown
+ * SS4: Enter invalid user name & valid password
+ * 		Expected: A pop-up “User or Password is not valid” is shown
  * 
  * @throws Exception
  */
@@ -26,7 +27,7 @@ public class tc_01_LoginTest extends BaseClass {
 	public LoginPage lp;
 	public LoginBase lb;
 
-	@BeforeSuite
+	@BeforeTest
 	public void initDriver() {
 		driver = initialization();
 	}
@@ -49,7 +50,14 @@ public class tc_01_LoginTest extends BaseClass {
 		lb.verifyLogin();
 	}
 
-	@AfterSuite
+	@Test
+	public void verifyTitle() {
+		String expectedUrl = driver.getCurrentUrl();
+		System.out.println(expectedUrl);
+		Assert.assertTrue(expectedUrl.contains("index"), "Test Failed");
+	}
+
+	@AfterTest
 	public void tearDown() {
 		driver.close();
 		log.info("Browser closed");
