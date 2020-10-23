@@ -4,12 +4,14 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 
+import com.guru99.pageObjects.HomePage;
 import com.guru99.pageObjects.LoginPage;
 
 public class LoginBase extends BaseClass {
 
 	public WebDriver driver;
 	String actualUrl;
+	HomePage hp;
 
 	public LoginBase(WebDriver driver) {
 		this.driver = driver;
@@ -33,7 +35,7 @@ public class LoginBase extends BaseClass {
 		log.debug("Clicked on Login Button");
 	}
 
-	public void verifyLogin() {
+	public void verifyLogin(String userName) {
 		log.debug("Verifying Login");
 		try {
 			Alert alert = driver.switchTo().alert();
@@ -50,12 +52,22 @@ public class LoginBase extends BaseClass {
 			}
 		} catch (NoAlertPresentException Ex) {
 			actualUrl = driver.getCurrentUrl();
-			if (actualUrl.contains("Managerhomepage")) {
-				log.info("Login Success! You're redirected to: " + actualUrl);
+			hp = new HomePage(driver);
+			/*
+			 * if (actualUrl.contains("Managerhomepage")) {
+			 * log.info("Login Success! You're redirected to: " + actualUrl); } else {
+			 * log.error("Login Not Success"); actualUrl = driver.getCurrentUrl();
+			 * log.info("You're redirected to: " + actualUrl +
+			 * " Please Login with Valid credentials"); }
+			 */
+			String managerID = hp.getManagerId().getText();
+			if (managerID.contains(userName)) {
+				log.info("Login Success! Welcome: " + userName + " You're redirected to: " + actualUrl);
 			} else {
-				log.error("Login Not Success");
-				actualUrl = driver.getCurrentUrl();
-				log.info("You're redirected to: " + actualUrl + " Please Login with Valid credentials");
+				log.error(userName + " Not present on the Home page");
+				// actualUrl = driver.getCurrentUrl();
+				// log.info("You're redirected to: " + actualUrl + " Please Login with Valid
+				// credentials");
 			}
 
 		}

@@ -14,13 +14,13 @@ public class ScreenshotClass {
 
 	public WebDriver driver;
 
-	public void captureScreenshot(String testCaseName, WebDriver driver) throws IOException {
+	public String captureScreenshot(String testCaseName, WebDriver driver) throws IOException {
 		String timeStamp = new SimpleDateFormat("dd-MM-yyyy-HH-mm-ss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		String destinationFile = System.getProperty("user.dir") + "\\Screenshots\\" + testCaseName + "_" + timeStamp
 				+ ".png";
 		FileUtils.copyFile(source, new File(destinationFile));
-		// return destinationFile;
+		return destinationFile;
 	}
 }

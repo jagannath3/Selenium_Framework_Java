@@ -1,27 +1,34 @@
 package com.guru99.utility;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
 import org.testng.ISuiteResult;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.xml.XmlSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class ExtentReporterNG implements IReporter {
+public class ExtentReporterNG extends ScreenshotClass implements IReporter {
 	private ExtentReports extent;
 	ExtentHtmlReporter htmlReporter;
+	WebDriver driver;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
@@ -41,20 +48,36 @@ public class ExtentReporterNG implements IReporter {
 			for (ISuiteResult r : result.values()) {
 				ITestContext context = r.getTestContext();
 
-				buildTestNodes(context.getPassedTests(), Status.PASS);
-				buildTestNodes(context.getFailedTests(), Status.FAIL);
-				buildTestNodes(context.getSkippedTests(), Status.SKIP);
+				try {
+					buildTestNodes(context.getPassedTests(), Status.PASS);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				try {
+					buildTestNodes(context.getFailedTests(), Status.FAIL);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				try {
+					buildTestNodes(context.getSkippedTests(), Status.SKIP);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 		}
 		extent.flush();
 	}
 
-	private void buildTestNodes(IResultMap tests, Status status) {
+	private void buildTestNodes(IResultMap tests, Status status) throws IOException {
 		ExtentTest test;
 
 		if (tests.size() > 0) {
 			for (ITestResult result : tests.getAllResults()) {
-				test = extent.createTest(result.getMethod().getMethodName());
+				String testCaseName = result.getMethod().getMethodName();
+				test = extent.createTest(testCaseName);
 
 				// test.getTest() = getTime(result.getStartMillis());
 				// test.getTest().endedTime = getTime(result.getEndMillis());
@@ -65,13 +88,20 @@ public class ExtentReporterNG implements IReporter {
 				for (String group : result.getMethod().getGroups())
 					test.assignCategory(group);
 
-				String message = "Test " + status.toString().toLowerCase() + "ed";
+				// String message = "Test " + status.toString().toLowerCase() + "ed";
 
-				if (result.getThrowable() != null)
-					message = result.getThrowable().getMessage();
+				if (result.getThrowable() != null) {
+					try {
+						driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver")
+								.get(result.getInstance());
+					} catch (Exception e) {
 
-				test.log(status, message);
-
+					}
+					String screenShotPath = captureScreenshot(testCaseName, driver);
+					String message = result.getThrowable().getMessage();
+					test.log(status, message, MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath).build());
+					// test.log(status, message);
+				}
 				// extent.endTest(test);
 			}
 		}
