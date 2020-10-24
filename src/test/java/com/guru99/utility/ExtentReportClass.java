@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.openqa.selenium.WebDriver;
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -13,7 +12,7 @@ public class ExtentReportClass extends ScreenshotClass {
 	public WebDriver driver;
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
-	public ExtentTest test;
+	//public ExtentTest test;
 
 	public static ExtentReports setExtent() {
 		String timeStamp = new SimpleDateFormat("dd-MM-yyyy-HH-mm-ss").format(new Date());

@@ -16,9 +16,11 @@ public class ListenerClass extends ScreenshotClass implements ITestListener {
 	ThreadLocal<ExtentTest> tl = new ThreadLocal<ExtentTest>(); // thread safe - to run parallel tests without
 																// overriding the objects
 	ScreenshotClass screenshotClass;
+	String testCaseName;
 
 	public void onTestStart(ITestResult result) {
-		test = extent.createTest(result.getMethod().getMethodName());
+		testCaseName = result.getMethod().getMethodName();
+		test = extent.createTest(testCaseName);
 		tl.set(test);
 	}
 

@@ -265,3 +265,45 @@
 2020-10-23-19:30:07.823 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
 2020-10-23-19:30:12.146 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
 2020-10-23-19:30:12.148 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+2020-10-24-13:07:00.343 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+2020-10-24-13:07:00.389 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+2020-10-24-13:07:08.040 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+2020-10-24-13:07:08.041 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+2020-10-24-13:08:23.327 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+2020-10-24-13:08:23.340 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+2020-10-24-13:08:27.972 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+2020-10-24-13:08:27.973 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+2020-10-24-13:33:08.799 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+2020-10-24-13:33:08.836 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+2020-10-24-13:33:14.829 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+2020-10-24-13:33:14.830 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
+2020-10-24-13:33:15.876 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+2020-10-24-13:33:16.147 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+2020-10-24-13:33:18.172 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+2020-10-24-13:33:18.172 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+2020-10-24-13:33:18.216 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+2020-10-24-13:33:18.235 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+2020-10-24-13:33:22.876 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+2020-10-24-13:33:23.233 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+2020-10-24-13:33:23.524 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+2020-10-24-13:33:24.317 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+2020-10-24-13:33:24.318 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+2020-10-24-13:33:24.337 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+2020-10-24-13:33:24.373 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+2020-10-24-13:33:27.958 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+2020-10-24-13:33:28.262 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+2020-10-24-13:33:28.539 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+2020-10-24-13:33:29.226 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+2020-10-24-13:33:29.227 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+2020-10-24-13:33:29.240 [main] ERROR com.guru99.Base.BaseClass - Alert box opened with error message: User or Password is not valid
+2020-10-24-13:33:29.255 [main] DEBUG com.guru99.Base.BaseClass - Clicked OK on Alert box
+2020-10-24-13:33:33.410 [main] INFO  com.guru99.Base.BaseClass - You're redirected to: http://www.demo.guru99.com/V4/index.php Please Login with Valid credentials
+2020-10-24-13:33:33.780 [main] DEBUG com.guru99.Base.BaseClass - User name entered
+2020-10-24-13:33:34.119 [main] DEBUG com.guru99.Base.BaseClass - Password entered
+2020-10-24-13:33:37.347 [main] DEBUG com.guru99.Base.BaseClass - Clicked on Login Button
+2020-10-24-13:33:37.348 [main] DEBUG com.guru99.Base.BaseClass - Verifying Login
+2020-10-24-13:33:37.648 [main] INFO  com.guru99.Base.BaseClass - Login Success! Welcome: mngr291004 You're redirected to: http://www.demo.guru99.com/V4/manager/Managerhomepage.php
+2020-10-24-13:33:43.595 [main] INFO  com.guru99.Base.BaseClass - ***********************Starting Tests***********************
+2020-10-24-13:33:43.596 [main] INFO  com.guru99.Base.BaseClass - Driver initialized
+2020-10-24-13:33:48.595 [main] INFO  com.guru99.Base.BaseClass - Redirected to -> http://www.demo.guru99.com/V4/
+2020-10-24-13:33:48.596 [main] DEBUG com.guru99.Base.BaseClass - Deleting all the Cookies before starting the actual test cases
